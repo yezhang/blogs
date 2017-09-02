@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: UxMemo
+title: 星河千里的文字
 subtitle: 交互设计备忘录
-description:
-author: Ye Zhang
-language: zh-CN
+description: 
+author: Ye Zhang(星河千里)
+language: zh-Hans #zh-CN
 timezone:
 
 # URL
@@ -72,13 +72,22 @@ feed:
   path: atom.xml
   limit: 20
 
+# Configure social links
+social:
+  GitHub: https://github.com/yezhang
+  ZhiHu: https://www.zhihu.com/people/yezhang989
+  # Twitter: your-twitter-url
+  # Weibo: your-weibo-url
+  # DouBan: your-douban-url
+
 ## Themes: https://hexo.io/themes/
-theme: anatole
-archive_generator:
-  per_page: 0
-  yearly: false
-  monthly: false
-  daily: false
+theme: next
+## anatole 主题需要的配置
+# archive_generator:
+#   per_page: 0
+#   yearly: false
+#   monthly: false
+#   daily: false
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
